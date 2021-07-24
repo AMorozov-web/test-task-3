@@ -30,7 +30,7 @@ const ImageContainer = styled.div`
 const ColoredUserPic = ({src, size, margin, backgroundColor, colors, hoverColors, colorWidth}) => {
 
   return (
-    <ImageContainer size={size} margin={margin} colors={colors} hoverColors={hoverColors}>
+    <ImageContainer size={size} colors={colors} hoverColors={hoverColors}>
       <StyledImg src={src} margin={margin} backgroundColor={backgroundColor} colorWidth={colorWidth}/>
     </ImageContainer>
   );
