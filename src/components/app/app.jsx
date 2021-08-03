@@ -11,7 +11,7 @@ const App = () => {
       backgroundColor={`red`}
       colors={[`green`, `blue`]}
       hoverColors={[`blue`, `green`]}
-      colorWidth={20}
+      colorWidth={10}
     />
   );
 };
