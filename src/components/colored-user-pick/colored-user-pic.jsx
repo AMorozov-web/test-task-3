@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 const StyledImg = styled.img`
   display: block;
-  width: calc(100% - ${(props) => props.colorWidth}px);
-  height: calc(100% - ${(props) => props.colorWidth}px);
+  width: calc(100% - ${(props) => props.colorWidth * 2}px);
+  height: calc(100% - ${(props) => props.colorWidth * 2}px);
   box-sizing: border-box;
   border: ${(props) => props.margin}px solid;
   border-color: ${(props) => props.backgroundColor};
